@@ -14,3 +14,8 @@ inoremap (      ()<Left>
 inoremap (<CR>  (<CR>)<Esc>O
 inoremap ((     (
 inoremap ()     ()
+
+"Enable match highlighting when starting vim
+set viminfo^=h
+
+inoremap <Space>		<Space><Esc>/\s\s<CR>i
