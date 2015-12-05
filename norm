@@ -1,4 +1,0 @@
-gg=G
-:%s/[\s\t]\+$//g
-:%s/break;/break ;/g
-:%s/while(/while (/g
